@@ -99,9 +99,9 @@
 #         print("존재하지 않는 명령어 입니다.")
 
 #파이썬 랜덤 사용
-import random
+# import random
 
-num = random.randint(1,10) # random.randint(random + int)
+# num = random.randint(1,10) # random.randint(random + int)
 
 # 동전 앞면 뒷면 맞추기 게임 만들기
 # while True:
@@ -116,33 +116,33 @@ num = random.randint(1,10) # random.randint(random + int)
 #     if user == "exit":
 #         break
 
-n = random.randrange(1,10) #1~9
-game = ["가위","바위","보"]
-w = 0
-l = 0
-d = 0
-print("가위 바위 보!!! 경기~~~~!!!!!!!!! 시작~~~~~~~~~~~~~~~~~~~~~~!!!! 하겠습니다!!!!!!!!!!!!!!!!!!!!!!")
-while True:
-    print("점수판")
-    print(" 승 : ",w," 패 : ",l,"무 : ",d)
+# n = random.randrange(1,10) #1~9
+# game = ["가위","바위","보"]
+# w = 0
+# l = 0
+# d = 0
+# print("가위 바위 보!!! 경기~~~~!!!!!!!!! 시작~~~~~~~~~~~~~~~~~~~~~~!!!! 하겠습니다!!!!!!!!!!!!!!!!!!!!!!")
+# while True:
+#     print("점수판")
+#     print(" 승 : ",w," 패 : ",l,"무 : ",d)
     
-    user = input("가위 바위 보!! : ").strip()
+#     user = input("가위 바위 보!! : ").strip()
 
-    n = random.choice(game)
-    print(n)
-    print(user)
-    if (user =="가위" and n == "보") or (user == "바위" and n == "가위") or (user == "보" and n == "바위"):
-        print("승리 !!!!!!")
-        w += 1
-    elif user == n :
-        print("무승부!!!!!!!")
-        d += 1
-    elif user == "그만" :
-        print("그만!!!! 경기!!!!!!!!!!!!!!!!! 끝났습니다~~~!!!!!.")
-        break
-    else :
-        print("패배!!!!!!!")
-        l += 1
+#     n = random.choice(game)
+#     print(n)
+#     print(user)
+#     if (user =="가위" and n == "보") or (user == "바위" and n == "가위") or (user == "보" and n == "바위"):
+#         print("승리 !!!!!!")
+#         w += 1
+#     elif user == n :
+#         print("무승부!!!!!!!")
+#         d += 1
+#     elif user == "그만" :
+#         print("그만!!!! 경기!!!!!!!!!!!!!!!!! 끝났습니다~~~!!!!!.")
+#         break
+#     else :
+#         print("패배!!!!!!!")
+#         l += 1
 
 # cidx = game.index(com)
 # uidx = game.indx(user)
